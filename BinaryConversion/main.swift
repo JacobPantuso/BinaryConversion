@@ -34,12 +34,12 @@ while flag {
         print("Please enter the corresponding binary number you would like to convert:")
         let binaryValue = readLine()
         let result = binaryToDecimal(binaryValue: binaryValue!)
-        print("The result of the conversion is: ", result, "\n")
+        print("The result of the conversion is: \(result)\n")
     } else if selection == "2" {
         print("Please enter the corresponding decimal number you would like to convert:")
         let decimalValue = readLine()
         let result = decimalToBinary(decimalValue: decimalValue!)
-        print("The result of the conversion is: ", result, "\n")
+        print("The result of the conversion is: \(result)\n")
     }
 }
 
